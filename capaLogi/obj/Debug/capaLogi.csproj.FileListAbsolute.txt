@@ -1,0 +1,15 @@
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\capaLogi.dll.config
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\capaLogi.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\capaLogi.pdb
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\capaDatos.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\EntityFramework.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\capaDatos.pdb
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\capaDatos.dll.config
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\EntityFramework.xml
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\obj\Debug\capaLogi.csproj.AssemblyReference.cache
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\obj\Debug\capaLogi.csproj.CoreCompileInputs.cache
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\obj\Debug\capaLogi.csproj.CopyComplete
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\obj\Debug\capaLogi.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaLogi\obj\Debug\capaLogi.pdb

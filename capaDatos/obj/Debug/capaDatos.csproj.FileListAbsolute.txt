@@ -1,0 +1,12 @@
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\bin\Debug\capaDatos.dll.config
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\bin\Debug\EntityFramework.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\bin\Debug\EntityFramework.xml
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\obj\Debug\capaDatos.csproj.AssemblyReference.cache
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\obj\Debug\capaDatos.csproj.CoreCompileInputs.cache
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\obj\Debug\capaDatos.csproj.CopyComplete
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\capaDatos\obj\Debug\capaDatos.pdb

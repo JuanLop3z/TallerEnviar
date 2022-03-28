@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ddfa99f7-a30e-42f1-adbe-855aeb530fe4": {
+      "ProjectGuid": "ddfa99f7-a30e-42f1-adbe-855aeb530fe4",
+      "DisplayName": "CapaDatos",
+      "ColorIndex": 0
+    },
+    "672025c6-5b8c-4f7b-8615-ac943a1d085f": {
+      "ProjectGuid": "672025c6-5b8c-4f7b-8615-ac943a1d085f",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    },
+    "7c38d1a5-93f8-4e8f-87ad-c4a4c4ec3bea": {
+      "ProjectGuid": "7c38d1a5-93f8-4e8f-87ad-c4a4c4ec3bea",
+      "DisplayName": "CapaLogica",
+      "ColorIndex": 2
+    },
+    "db9fc729-3f49-4105-bd44-ac8b69bc9ddc": {
+      "ProjectGuid": "db9fc729-3f49-4105-bd44-ac8b69bc9ddc",
+      "DisplayName": "CapaPresentacion",
+      "ColorIndex": 3
+    },
+    "cfb444e0-a0a6-4006-b984-281a367fa53a": {
+      "ProjectGuid": "cfb444e0-a0a6-4006-b984-281a367fa53a",
+      "DisplayName": "CapaPresentacion",
+      "ColorIndex": 4
+    },
+    "8462b71b-ec04-4fd8-bdfc-d937093be6f7": {
+      "ProjectGuid": "8462b71b-ec04-4fd8-bdfc-d937093be6f7",
+      "DisplayName": "CapaLogica",
+      "ColorIndex": 5
+    },
+    "571d944f-a9ff-44c9-904a-3d4ffd7be44b": {
+      "ProjectGuid": "571d944f-a9ff-44c9-904a-3d4ffd7be44b",
+      "DisplayName": "CapaLogica",
+      "ColorIndex": 6
+    },
+    "4356f48c-6c62-4ee4-ba3a-d10722ec9ec1": {
+      "ProjectGuid": "4356f48c-6c62-4ee4-ba3a-d10722ec9ec1",
+      "DisplayName": "CapaDatos",
+      "ColorIndex": 7
+    },
+    "393bf5cb-7d5d-4ddc-b06f-a42e03689da2": {
+      "ProjectGuid": "393bf5cb-7d5d-4ddc-b06f-a42e03689da2",
+      "DisplayName": "capaDatos",
+      "ColorIndex": 8
+    },
+    "af709157-2742-4b49-a289-c27395f5ced8": {
+      "ProjectGuid": "af709157-2742-4b49-a289-c27395f5ced8",
+      "DisplayName": "capaLogi",
+      "ColorIndex": 9
+    },
+    "8a195092-1b27-40f0-9a97-621304910a36": {
+      "ProjectGuid": "8a195092-1b27-40f0-9a97-621304910a36",
+      "DisplayName": "capaPresentacion",
+      "ColorIndex": 10
+    },
+    "22f1879c-2cb9-45b7-8c78-54d6e2d04e20": {
+      "ProjectGuid": "22f1879c-2cb9-45b7-8c78-54d6e2d04e20",
+      "DisplayName": "capaPresentacion",
+      "ColorIndex": 11
+    },
+    "1ad5228a-2b69-432b-b3a2-8928097edad6": {
+      "ProjectGuid": "1ad5228a-2b69-432b-b3a2-8928097edad6",
+      "DisplayName": "CapaPresentacion",
+      "ColorIndex": 12
+    }
+  },
+  "NextColorIndex": 13
+}

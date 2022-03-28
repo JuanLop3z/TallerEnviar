@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="nominaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="empleado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="usuario" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="contraseña" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="nombreEmpleado" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="correoEmpleado" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="numeroCelular" Type="Int32" />
+    <Property Name="rol" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="nominaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="empleado" EntityType="Self.empleado" />
+  </EntityContainer>
+</Schema>
