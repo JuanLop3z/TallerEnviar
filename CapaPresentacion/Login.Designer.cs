@@ -63,7 +63,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Location = new System.Drawing.Point(12, 44);
+            this.label3.Location = new System.Drawing.Point(12, 24);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(195, 33);
             this.label3.TabIndex = 7;
@@ -71,30 +71,42 @@
             // 
             // aceptarBtn
             // 
+            this.aceptarBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.aceptarBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.aceptarBtn.FlatAppearance.BorderSize = 0;
+            this.aceptarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aceptarBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aceptarBtn.Location = new System.Drawing.Point(206, 260);
+            this.aceptarBtn.Location = new System.Drawing.Point(201, 260);
             this.aceptarBtn.Name = "aceptarBtn";
             this.aceptarBtn.Size = new System.Drawing.Size(95, 34);
             this.aceptarBtn.TabIndex = 6;
             this.aceptarBtn.Text = "Aceptar";
-            this.aceptarBtn.UseVisualStyleBackColor = true;
+            this.aceptarBtn.UseVisualStyleBackColor = false;
             this.aceptarBtn.Click += new System.EventHandler(this.aceptarBtn_Click);
+            this.aceptarBtn.MouseEnter += new System.EventHandler(this.aceptarBtn_MouseEnter);
+            this.aceptarBtn.MouseLeave += new System.EventHandler(this.aceptarBtn_MouseLeave);
             // 
             // cerrarBtn
             // 
+            this.cerrarBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.cerrarBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cerrarBtn.FlatAppearance.BorderSize = 0;
+            this.cerrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cerrarBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.cerrarBtn.Location = new System.Drawing.Point(46, 260);
+            this.cerrarBtn.Location = new System.Drawing.Point(51, 260);
             this.cerrarBtn.Name = "cerrarBtn";
             this.cerrarBtn.Size = new System.Drawing.Size(100, 34);
             this.cerrarBtn.TabIndex = 5;
             this.cerrarBtn.Text = "Cerrar";
-            this.cerrarBtn.UseVisualStyleBackColor = true;
+            this.cerrarBtn.UseVisualStyleBackColor = false;
+            this.cerrarBtn.MouseEnter += new System.EventHandler(this.cerrarBtn_MouseEnter);
+            this.cerrarBtn.MouseLeave += new System.EventHandler(this.cerrarBtn_MouseLeave);
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(47, 204);
+            this.linkLabel1.Location = new System.Drawing.Point(39, 220);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(78, 16);
             this.linkLabel1.TabIndex = 4;
@@ -107,7 +119,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(42, 143);
+            this.label2.Location = new System.Drawing.Point(34, 149);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 23);
             this.label2.TabIndex = 3;
@@ -119,7 +131,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(42, 87);
+            this.label1.Location = new System.Drawing.Point(34, 78);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 23);
             this.label1.TabIndex = 2;
@@ -128,18 +140,18 @@
             // usuarioContraseñaTxt
             // 
             this.usuarioContraseñaTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usuarioContraseñaTxt.Location = new System.Drawing.Point(46, 169);
+            this.usuarioContraseñaTxt.Location = new System.Drawing.Point(50, 184);
             this.usuarioContraseñaTxt.Name = "usuarioContraseñaTxt";
-            this.usuarioContraseñaTxt.Size = new System.Drawing.Size(224, 22);
+            this.usuarioContraseñaTxt.Size = new System.Drawing.Size(255, 22);
             this.usuarioContraseñaTxt.TabIndex = 1;
             // 
             // usuarioIngresoTxt
             // 
             this.usuarioIngresoTxt.BackColor = System.Drawing.Color.White;
             this.usuarioIngresoTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usuarioIngresoTxt.Location = new System.Drawing.Point(46, 113);
+            this.usuarioIngresoTxt.Location = new System.Drawing.Point(50, 113);
             this.usuarioIngresoTxt.Name = "usuarioIngresoTxt";
-            this.usuarioIngresoTxt.Size = new System.Drawing.Size(224, 22);
+            this.usuarioIngresoTxt.Size = new System.Drawing.Size(255, 22);
             this.usuarioIngresoTxt.TabIndex = 0;
             // 
             // panel3

@@ -192,24 +192,34 @@
             // 
             // aceptarBtn
             // 
+            this.aceptarBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.aceptarBtn.FlatAppearance.BorderSize = 0;
+            this.aceptarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aceptarBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aceptarBtn.Location = new System.Drawing.Point(390, 302);
+            this.aceptarBtn.Location = new System.Drawing.Point(325, 292);
             this.aceptarBtn.Name = "aceptarBtn";
-            this.aceptarBtn.Size = new System.Drawing.Size(95, 34);
+            this.aceptarBtn.Size = new System.Drawing.Size(140, 35);
             this.aceptarBtn.TabIndex = 6;
             this.aceptarBtn.Text = "Aceptar";
             this.aceptarBtn.UseVisualStyleBackColor = true;
             this.aceptarBtn.Click += new System.EventHandler(this.aceptarBtn_Click);
+            this.aceptarBtn.MouseEnter += new System.EventHandler(this.aceptarBtn_MouseEnter);
+            this.aceptarBtn.MouseLeave += new System.EventHandler(this.aceptarBtn_MouseLeave);
             // 
             // cerrarBtn
             // 
+            this.cerrarBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.cerrarBtn.FlatAppearance.BorderSize = 0;
+            this.cerrarBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cerrarBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
-            this.cerrarBtn.Location = new System.Drawing.Point(89, 302);
+            this.cerrarBtn.Location = new System.Drawing.Point(95, 292);
             this.cerrarBtn.Name = "cerrarBtn";
-            this.cerrarBtn.Size = new System.Drawing.Size(100, 34);
+            this.cerrarBtn.Size = new System.Drawing.Size(140, 35);
             this.cerrarBtn.TabIndex = 5;
             this.cerrarBtn.Text = "Cerrar";
             this.cerrarBtn.UseVisualStyleBackColor = true;
+            this.cerrarBtn.MouseEnter += new System.EventHandler(this.cerrarBtn_MouseEnter);
+            this.cerrarBtn.MouseLeave += new System.EventHandler(this.cerrarBtn_MouseLeave);
             // 
             // label2
             // 

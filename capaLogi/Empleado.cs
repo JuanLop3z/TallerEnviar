@@ -44,13 +44,8 @@ namespace capaLogi
             using (nominaEntities db = new nominaEntities())
             {
                 var lista = db.empleado.Where(C => C.usuario == nombreUsuario && C.contraseña == contraseña).Select(D => new { D.id,D.rol });
-                foreach (var Datos in lista.ToList())
-                {
-                    if (lista.Count() == Datos.id)
-                    {
 
-                    } 
-                }
+
             }
         }
     }

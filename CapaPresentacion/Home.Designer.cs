@@ -30,14 +30,9 @@
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.usuariosBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,72 +47,12 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.usuariosBtn);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Location = new System.Drawing.Point(2, 67);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(586, 362);
             this.panel1.TabIndex = 5;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(312, 212);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(163, 37);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(312, 133);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(163, 37);
-            this.button5.TabIndex = 15;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(312, 58);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(163, 37);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(63, 212);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(163, 37);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(63, 133);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 37);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(63, 58);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 37);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Usuarios";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -137,6 +72,19 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(586, 69);
             this.panel3.TabIndex = 6;
+            // 
+            // usuariosBtn
+            // 
+            this.usuariosBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.usuariosBtn.FlatAppearance.BorderSize = 0;
+            this.usuariosBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.usuariosBtn.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usuariosBtn.Location = new System.Drawing.Point(90, 66);
+            this.usuariosBtn.Name = "usuariosBtn";
+            this.usuariosBtn.Size = new System.Drawing.Size(140, 35);
+            this.usuariosBtn.TabIndex = 11;
+            this.usuariosBtn.Text = "Usuarios";
+            this.usuariosBtn.UseVisualStyleBackColor = true;
             // 
             // Home
             // 
@@ -159,12 +107,7 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button usuariosBtn;
     }
 }
