@@ -39,13 +39,11 @@ namespace capaLogi
             }
         }
         //metodo para loguearse
-        public static void loguear(string contraseña, string nombreUsuario)
+        public static List<eso> loguear(string contraseña, string nombreUsuario)
         {
             using (nominaEntities db = new nominaEntities())
             {
-                var lista = db.empleado.Where(C => C.usuario == nombreUsuario && C.contraseña == contraseña).Select(D => new { D.id,D.rol });
-
-
+                return db.empleado.Where(C => C.usuario == nombreUsuario && C.contraseña == contraseña).Select(D => new eso{id = D.id,rol = D.rol,nombreEmpleado = D.nombreEmpleado }).ToList();
             }
         }
     }

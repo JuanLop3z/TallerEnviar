@@ -42,7 +42,32 @@ namespace CapaPresentacion
         {
             String nombreUsuario = usuarioIngresoTxt.Text;
             String contraseña = usuarioContraseñaTxt.Text;
-            capaLogi.Empleado.loguear(contraseña,nombreUsuario);
+            var login = capaLogi.Empleado.loguear(contraseña,nombreUsuario);
+            if (login.Count() >= 1)
+            {
+                foreach (var listado in login)
+                {
+                    if (listado.rol == "admin")
+                    {
+                        /*MessageBox.Show("Bienvenido de vuelta: " + listado.nombreEmpleado);
+                        Home from = new Home();
+                        from.Show();
+                        this.Hide();*/
+                    }
+                    else if (listado.rol == "empleado")
+                    {
+                        MessageBox.Show("Bienvenido de vuelta: " + listado.nombreEmpleado);
+                        Home from = new Home();
+                        from.Show();
+                        this.Hide();
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("El usuario no existe..." + "ERROR");
+                    }
+                }
+            }
 
         }
 
@@ -68,6 +93,11 @@ namespace CapaPresentacion
         {
             cerrarBtn.BackColor = Color.FromArgb(199, 238, 255);
             cerrarBtn.ForeColor = Color.FromArgb(57, 55, 55);
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
