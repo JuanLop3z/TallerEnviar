@@ -99,6 +99,7 @@
             this.cerrarBtn.TabIndex = 5;
             this.cerrarBtn.Text = "Cerrar";
             this.cerrarBtn.UseVisualStyleBackColor = false;
+            this.cerrarBtn.Click += new System.EventHandler(this.cerrarBtn_Click);
             this.cerrarBtn.MouseEnter += new System.EventHandler(this.cerrarBtn_MouseEnter);
             this.cerrarBtn.MouseLeave += new System.EventHandler(this.cerrarBtn_MouseLeave);
             // 
@@ -144,15 +145,19 @@
             this.usuarioContraseñaTxt.Name = "usuarioContraseñaTxt";
             this.usuarioContraseñaTxt.Size = new System.Drawing.Size(255, 22);
             this.usuarioContraseñaTxt.TabIndex = 1;
+            this.usuarioContraseñaTxt.Click += new System.EventHandler(this.usuarioContraseñaTxt_Click);
             // 
             // usuarioIngresoTxt
             // 
             this.usuarioIngresoTxt.BackColor = System.Drawing.Color.White;
             this.usuarioIngresoTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usuarioIngresoTxt.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.usuarioIngresoTxt.Location = new System.Drawing.Point(50, 113);
             this.usuarioIngresoTxt.Name = "usuarioIngresoTxt";
             this.usuarioIngresoTxt.Size = new System.Drawing.Size(255, 22);
             this.usuarioIngresoTxt.TabIndex = 0;
+            this.usuarioIngresoTxt.Text = "Ingrese su nombre de usuario";
+            this.usuarioIngresoTxt.Click += new System.EventHandler(this.usuarioIngresoTxt_Click);
             // 
             // panel3
             // 

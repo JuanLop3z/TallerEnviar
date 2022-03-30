@@ -65,6 +65,11 @@
       "ProjectGuid": "1ad5228a-2b69-432b-b3a2-8928097edad6",
       "DisplayName": "CapaPresentacion",
       "ColorIndex": 12
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 13

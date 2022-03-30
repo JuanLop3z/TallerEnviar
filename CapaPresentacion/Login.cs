@@ -99,5 +99,41 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void usuarioIngresoTxt_Click(object sender, EventArgs e)
+        {
+            if (usuarioIngresoTxt.Text.Equals("Ingrese su nombre de usuario")) 
+            {
+                usuarioIngresoTxt.ResetText();
+                usuarioIngresoTxt.ForeColor = SystemColors.InfoText;
+            }
+
+            if (usuarioContraseñaTxt.Text.Equals(""))
+            {
+                usuarioContraseñaTxt.AppendText("******************");
+                usuarioContraseñaTxt.ForeColor = SystemColors.ScrollBar;
+            }
+        }
+
+        private void usuarioContraseñaTxt_Click(object sender, EventArgs e)
+        {
+            if (usuarioContraseñaTxt.Text.Equals("******************"))
+            {
+                usuarioContraseñaTxt.ResetText();
+                usuarioContraseñaTxt.ForeColor= SystemColors.InfoText;
+            }
+
+            if(usuarioIngresoTxt.Text.Equals(""))
+            {
+                usuarioIngresoTxt.AppendText("Ingrese su nombre de usuario");
+                usuarioIngresoTxt.ForeColor = SystemColors.ScrollBar;
+            }
+        }
+
+        private void cerrarBtn_Click(object sender, EventArgs e)
+        {
+            ventanaCerrar from = new ventanaCerrar();
+            from.Show();
+        }
     }
 }
