@@ -14,7 +14,6 @@ C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\bin\Deb
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.Home.resources
-C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.Registro.resources
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
@@ -22,3 +21,5 @@ C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Deb
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.iniciarsesion.resources
+C:\Users\JuanSebastianLopezGa\source\repos\TallerEnviar\CapaPresentacion\obj\Debug\CapaPresentacion.Usuarios.resources

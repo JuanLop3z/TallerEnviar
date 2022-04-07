@@ -10,26 +10,11 @@ using System.Windows.Forms;
 
 namespace CapaPresentacion
 {
-    public partial class Login : Form
+    public partial class iniciarsesion : Form
     {
-        public Login()
+        public iniciarsesion()
         {
             InitializeComponent();
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -42,17 +27,17 @@ namespace CapaPresentacion
         {
             String nombreUsuario = usuarioIngresoTxt.Text;
             String contraseña = usuarioContraseñaTxt.Text;
-            var login = capaLogi.Empleado.loguear(contraseña,nombreUsuario);
+            var login = capaLogi.Empleado.loguear(contraseña, nombreUsuario);
             if (login.Count() >= 1)
             {
                 foreach (var listado in login)
                 {
                     if (listado.rol == "admin")
                     {
-                        /*MessageBox.Show("Bienvenido de vuelta: " + listado.nombreEmpleado);
+                        MessageBox.Show("Bienvenido de vuelta: " + listado.nombreEmpleado);
                         Home from = new Home();
                         from.Show();
-                        this.Hide();*/
+                        this.Hide();
                     }
                     else if (listado.rol == "empleado")
                     {
@@ -64,11 +49,14 @@ namespace CapaPresentacion
                     }
                     else
                     {
-                        MessageBox.Show("El usuario no existe..." + "ERROR");
+                        MessageBox.Show("El usuario falta de rol..." + "ERROR");
                     }
                 }
             }
-
+            else
+            {
+                MessageBox.Show("El usuario no existe..." + "ERROR");
+            }
         }
 
         private void aceptarBtn_MouseEnter(object sender, EventArgs e)
@@ -95,14 +83,9 @@ namespace CapaPresentacion
             cerrarBtn.ForeColor = Color.FromArgb(57, 55, 55);
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void usuarioIngresoTxt_Click(object sender, EventArgs e)
         {
-            if (usuarioIngresoTxt.Text.Equals("Ingrese su nombre de usuario")) 
+            if (usuarioIngresoTxt.Text.Equals("Ingrese su nombre de usuario"))
             {
                 usuarioIngresoTxt.ResetText();
                 usuarioIngresoTxt.ForeColor = SystemColors.InfoText;
@@ -115,25 +98,35 @@ namespace CapaPresentacion
             }
         }
 
+        private void cerrarBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void usuarioContraseñaTxt_Click(object sender, EventArgs e)
         {
             if (usuarioContraseñaTxt.Text.Equals("******************"))
             {
                 usuarioContraseñaTxt.ResetText();
-                usuarioContraseñaTxt.ForeColor= SystemColors.InfoText;
+                usuarioContraseñaTxt.PasswordChar = '*';
+                usuarioContraseñaTxt.ForeColor = SystemColors.InfoText;
             }
 
-            if(usuarioIngresoTxt.Text.Equals(""))
+            if (usuarioIngresoTxt.Text.Equals(""))
             {
                 usuarioIngresoTxt.AppendText("Ingrese su nombre de usuario");
                 usuarioIngresoTxt.ForeColor = SystemColors.ScrollBar;
             }
         }
 
-        private void cerrarBtn_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            ventanaCerrar from = new ventanaCerrar();
-            from.Show();
+
+        }
+
+        private void usuarioContraseñaTxt_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

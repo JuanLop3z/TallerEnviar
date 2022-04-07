@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using capaDatos;
@@ -10,11 +11,19 @@ namespace capaLogi
     public class Empleado
     {
 
-        public static List<capaDatos.empleado> Get()
+        public static List<users> Get()
         {
             using (nominaEntities db = new nominaEntities())
             {
-                return db.empleado.ToList();
+                return (from d in db.empleado
+                        select new users()
+                        {
+                            nombreEmpleado = d.nombreEmpleado,
+                            correoEmpleado = d.correoEmpleado,
+                            numeroCelular = d.numeroCelular,
+                            rol = d.rol,
+                            
+                        }).ToList();
             }
         }
         //metodo para establecer en registro
@@ -23,12 +32,18 @@ namespace capaLogi
 
             using (nominaEntities db = new nominaEntities())
             {
+
+                byte[] tmpSource = ASCIIEncoding.ASCII.GetBytes(contraseña);
+                byte[] tmpHash = new MD5CryptoServiceProvider().ComputeHash(tmpSource);
+                
+
+
                 empleado listado;
                 listado = new empleado();
 
                 listado.id = id;
                 listado.usuario = usuario;
-                listado.contraseña = contraseña;
+                listado.contraseña = Convert.ToBase64String(tmpHash);
                 listado.nombreEmpleado = nombreEmpleado;
                 listado.correoEmpleado = correoEmpleado;
                 listado.numeroCelular = numeroCelular;
@@ -39,11 +54,14 @@ namespace capaLogi
             }
         }
         //metodo para loguearse
-        public static List<eso> loguear(string contraseña, string nombreUsuario)
+        public static List<log> loguear(string contraseña, string nombreUsuario)
         {
             using (nominaEntities db = new nominaEntities())
             {
-                return db.empleado.Where(C => C.usuario == nombreUsuario && C.contraseña == contraseña).Select(D => new eso{id = D.id,rol = D.rol,nombreEmpleado = D.nombreEmpleado }).ToList();
+                byte[] tmpSource = ASCIIEncoding.ASCII.GetBytes(contraseña);
+                byte[] tmpHash = new MD5CryptoServiceProvider().ComputeHash(tmpSource);
+                String contrasena = Convert.ToBase64String(tmpHash);
+                return db.empleado.Where(C => C.usuario == nombreUsuario && C.contraseña == contrasena).Select(D => new log{id = D.id,rol = D.rol,nombreEmpleado = D.nombreEmpleado }).ToList();
             }
         }
     }

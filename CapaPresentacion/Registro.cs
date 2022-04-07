@@ -65,5 +65,15 @@ namespace CapaPresentacion
             cerrarBtn.BackColor = Color.FromArgb(199, 238, 255);
             cerrarBtn.ForeColor = Color.FromArgb(57, 55, 55);
         }
+
+        private void cerrarBtn_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void contraseñaTxt_TextChanged(object sender, EventArgs e)
+        {
+            contraseñaTxt.PasswordChar = '*';
+        }
     }
 }

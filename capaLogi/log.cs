@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace capaLogi
 {
-    public class eso
+    public class log
     {
         public int id { get; set; }
-        public string rol { get; set; }
         public string nombreEmpleado { get; set; }
+        public string rol { get; set; }
     }
 }
